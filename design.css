@@ -1,0 +1,147 @@
+body {
+  font-family: sans-serif;
+  background-image: url(BG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Footer {
+  margin-top: 100px;
+}
+
+/* LOGIN */
+
+.login {
+  border: 1px solid grey;
+  border-radius: 10px;
+  max-width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: black;
+  opacity: 0.75;
+}
+.login h2 {
+  color: white;
+  text-align: center;
+}
+.login p {
+  display: inline-block;
+  padding-left: 30px;
+  margin: 0px;
+  text-align: left !important;
+  color: white;
+}
+.login input {
+  width: 350px;
+  height: 50px;
+  padding-left: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+}
+.login a {
+  text-decoration: none;
+  margin-top: 20px;
+}
+.login:hover button {
+  color: black;
+  background-color: #3350ff;
+}
+.login button {
+  width: 350px;
+  height: 50px;
+  border: 1px;
+  border-radius: 50px;
+  background-color: #3300ff;
+  color: white;
+  outline: none;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+.login-check {
+  padding-left: 30px;
+  color: white;
+}
+.login-check input {
+  width: 15px;
+  height: 15px;
+}
+.check-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+/* REGISTER */
+
+.res {
+  border: 1px solid grey;
+  border-radius: 10px;
+  max-width: 400px;
+  height: 720px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: black;
+  opacity: 0.8;
+}
+.res h2 {
+  text-align: center;
+  color: white;
+}
+.res p {
+  padding-left: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: white;
+  text-align: left;
+}
+.res input {
+  width: 350px;
+  height: 50px;
+  padding-left: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+}
+.res button {
+  width: 350px;
+  height: 50px;
+  border: 1px;
+  border-radius: 50px;
+  background-color: #3300ff;
+  color: white;
+  outline: none;
+  margin-top: 20px;
+}
+.res:hover button {
+  color: black;
+  background-color: #3350ff;
+}
+.res a {
+  float: right;
+  text-decoration: none;
+  padding-right: 30px;
+  margin-top: 50px;
+}
+.res-check {
+  padding-left: 30px;
+  color: white;
+}
+.res-check input {
+  width: 15px;
+  height: 15px;
+}
+.res-check input[value='Freelancer'] {
+  margin-left: 50px;
+}
